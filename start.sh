@@ -68,14 +68,14 @@ pbar 20
 nohup mvn exec:java -Dexec.mainClass='kafka.CoffeeStockConsumer' > ../logs/CoffeeStockConsumer.log &
 sleep 1
 
+echo "Launching CoffeeStockProducer"
+pbar 20
+nohup mvn exec:java -Dexec.mainClass='kafka.CoffeeStockProducer' > ../logs/CoffeeStockProducer.log &
+sleep 1
+
 echo "Launching InterfaceConsumer"
 pbar 20
 nohup mvn exec:java -Dexec.mainClass='kafka.InterfaceConsumer' > ../logs/InterfaceConsumer.log &
-sleep 1
-
-echo "Launching MergeCoffeePriceConsumer"
-pbar 20
-nohup mvn exec:java -Dexec.mainClass='kafka.MergeCoffeePriceConsumer' > ../logs/MergeCoffeePriceConsumer.log &
 sleep 1
 
 echo "Launching MergeCoffeePriceConsumer"

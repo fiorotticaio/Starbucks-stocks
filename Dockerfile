@@ -1,13 +1,17 @@
-FROM alpine:3.14
-# FROM openjdk:17-jdk-slim
+FROM debian:bullseye-slim
 
 WORKDIR /app
 
-COPY . .
+COPY ./Apache-Kafka-Project ./Apache-Kafka-Project 
+COPY ./kafka_2.13-3.4.0 ./kafka_2.13-3.4.0
+COPY ./data ./data
+COPY ./logs ./logs
+COPY ./entrypoint.sh ./entrypoint.sh
 
-WORKDIR /app/Apache-Kafka-Project
+RUN apt-get update 
+RUN apt-get install -y openjdk-17-jdk 
+RUN apt-get -y install maven
 
-# RUN apt-get update && apt-get install -y maven
-# RUN mvn compile
+RUN chmod +x entrypoint.sh
 
-# ENTRYPOINT ["bash", "entrypoint.sh" ]
+CMD ["bash", "entrypoint.sh"]
