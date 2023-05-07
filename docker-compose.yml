@@ -1,54 +1,49 @@
 version: '3.8'
 
 services:
-  kafka-client:
-    container_name: kafka-client
+  kafkaclient:
+    container_name: kafkaclient
     build: .
     ports:
       - 9092:9092
     networks:
       - app-network
 
-  kafka-backend:
-    container_name: kafka-backend
+  kafkabackend:
+    container_name: kafkabackend
     image: node:18-alpine
     command: sh -c "sleep 60 && node index.js"
     depends_on:
-      - kafka-client
+      - kafkaclient
     working_dir: /app
     volumes:
       - ./Starbucks-stock-backend:/app
     environment:
-      - KAFKA_HOST=localhost
+      - KAFKA_HOST=kafkaclient
       - KAFKA_PORT=9092
     ports:
       - 3001:3001
-    links:
-      - kafka-client
     networks:
       - app-network
 
-  kafka-frontend:
-    container_name: kafka-frontend
+  kafkafrontend:
+    container_name: kafkafrontend
     image: node:18-alpine
     command: sh -c "sleep 60 && npm run dev"
     depends_on:
-      - kafka-client
-      - kafka-backend
+      - kafkaclient
+      - kafkabackend
     working_dir: /app 
     volumes:
       - ./Starbucks-stock-frontend:/app
     environment:
-      - NEXT_PUBLIC_APIHOST=localhost
+      - NEXT_PUBLIC_APIHOST=kafkabackend
       - NEXT_PUBLIC_APIPORT=3001
     ports:
       - 3000:3000
-    links:
-      - kafka-backend
     networks:
       - app-network
 
 networks:
   app-network:
     driver: bridge
-    name: app-network
