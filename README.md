@@ -9,6 +9,13 @@ This is a full integrated Java + Javascript Kafka environment to test multiple e
 
 No parameters needed
 
+### Docker
+
+If you prefer a docker version (with the right maven and jdk) use:
+```
+docker compose up
+```
+
 ## Codes
 
 - [Frontend](https://github.com/fiorotticaio/Starbucks-stock-frontend)
