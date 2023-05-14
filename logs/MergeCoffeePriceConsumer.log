@@ -1,0 +1,30 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------------< [0;36mkafka:src[0;1m >------------------------------[m
+[[1;34mINFO[m] [1mBuilding src 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.1.0:java[m [1m(default-cli)[m @ [36msrc[0;1m ---[m
+Real coffee price [0.0/0.0]: 0.00
+Real coffee price [0.0/0.0]: 0.00
+Real coffee price [0.0/3.3526696276256773]: 3.35
+Real coffee price [0.0/3.5459555057384704]: 3.55
+Real coffee price [0.0/3.5459555057384704]: 3.55
+Real coffee price [0.0/3.717679423363613]: 3.72
+Real coffee price [0.0/3.717679423363613]: 3.72
+Real coffee price [0.0/3.480962099491986]: 3.48
+Real coffee price [0.0/3.480962099491986]: 3.48
+Real coffee price [0.0/3.2887493558966616]: 3.29
+Real coffee price [0.0/3.2887493558966616]: 3.29
+Real coffee price [0.0/3.241312411448997]: 3.24
+Real coffee price [0.0/3.098877522384696]: 3.10
+Real coffee price [0.0/3.098877522384696]: 3.10
+Real coffee price [0.0/2.8740222356637233]: 2.87
+Real coffee price [0.0/2.8740222356637233]: 2.87
+Real coffee price [0.0/2.8540821538907535]: 2.85
+Real coffee price [0.0/2.8540821538907535]: 2.85
+Real coffee price [0.0/2.834483975938604]: 2.83
+Real coffee price [0.0/2.834483975938604]: 2.83
+Real coffee price [0.0/2.6946916231994433]: 2.69
+Real coffee price [0.0/2.6946916231994433]: 2.69
+Real coffee price [0.0/2.4377926603910547]: 2.44

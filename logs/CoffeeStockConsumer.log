@@ -1,0 +1,63 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------------< [0;36mkafka:src[0;1m >------------------------------[m
+[[1;34mINFO[m] [1mBuilding src 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:3.1.0:java[m [1m(default-cli)[m @ [36msrc[0;1m ---[m
+Publishing Coffee value (3.8262984167304506) at api_coffee_price
+Publishing Close average (104.19019973449477) on api partition at api_coffee_price
+Publishing Coffee value (3.8262984167304506) on api partition at api_coffee_price
+
+Publishing Coffee value (3.587326686394355) at api_coffee_price
+Publishing Close average (101.7584602033809) on api partition at api_coffee_price
+Publishing Coffee value (3.587326686394355) on api partition at api_coffee_price
+
+Publishing Coffee value (3.3526696276256773) at api_coffee_price
+Publishing Close average (99.4253736291027) on api partition at api_coffee_price
+Publishing Coffee value (3.3526696276256773) on api partition at api_coffee_price
+
+Publishing Coffee value (3.5459555057384704) at api_coffee_price
+Publishing Close average (101.38500255370883) on api partition at api_coffee_price
+Publishing Coffee value (3.5459555057384704) on api partition at api_coffee_price
+
+Publishing Coffee value (3.717679423363613) at api_coffee_price
+Publishing Close average (103.1564454477663) on api partition at api_coffee_price
+Publishing Coffee value (3.717679423363613) on api partition at api_coffee_price
+
+Publishing Coffee value (3.480962099491986) at api_coffee_price
+Publishing Close average (100.77102081075296) on api partition at api_coffee_price
+Publishing Coffee value (3.480962099491986) on api partition at api_coffee_price
+
+Publishing Coffee value (3.2887493558966616) at api_coffee_price
+Publishing Close average (98.87060184656798) on api partition at api_coffee_price
+Publishing Coffee value (3.2887493558966616) on api partition at api_coffee_price
+
+Publishing Coffee value (3.241312411448997) at api_coffee_price
+Publishing Close average (98.40380426692309) on api partition at api_coffee_price
+Publishing Coffee value (3.241312411448997) on api partition at api_coffee_price
+
+Publishing Coffee value (3.098877522384696) at api_coffee_price
+Publishing Close average (100.73339217944653) on api partition at api_coffee_price
+Publishing Coffee value (3.098877522384696) on api partition at api_coffee_price
+
+Publishing Coffee value (2.8740222356637233) at api_coffee_price
+Publishing Close average (98.51815928414074) on api partition at api_coffee_price
+Publishing Coffee value (2.8740222356637233) on api partition at api_coffee_price
+
+Publishing Coffee value (2.8540821538907535) at api_coffee_price
+Publishing Close average (98.32210420434822) on api partition at api_coffee_price
+Publishing Coffee value (2.8540821538907535) on api partition at api_coffee_price
+
+Publishing Coffee value (2.834483975938604) at api_coffee_price
+Publishing Close average (98.12978770017276) on api partition at api_coffee_price
+Publishing Coffee value (2.834483975938604) on api partition at api_coffee_price
+
+Publishing Coffee value (2.6946916231994433) at api_coffee_price
+Publishing Close average (96.77692036135632) on api partition at api_coffee_price
+Publishing Coffee value (2.6946916231994433) on api partition at api_coffee_price
+
+Publishing Coffee value (2.4377926603910547) at api_coffee_price
+Publishing Close average (94.35300153805778) on api partition at api_coffee_price
+Publishing Coffee value (2.4377926603910547) on api partition at api_coffee_price
+
